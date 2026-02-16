@@ -2,7 +2,8 @@
 layout: page
 title: Links
 permalink: /links/
-description: Below, I'll be sharing links to resources that I find particularly useful.
+description: Below, I'll be sharing links to resources that I find particularly useful. If you're a student, you might find them useful (or not).
+
 nav: true
 nav_order: 3
 ---
