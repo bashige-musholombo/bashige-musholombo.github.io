@@ -30,7 +30,7 @@ Hi there! I am a PhD student in Economics at [KU Leuven](https://feb.kuleuven.be
 
 My primary research interests lie in Macroeconomics, with particular attention to International Macro and Monetary Economics. I also have an interest in Political Economy.
 
-On this webpage, you can access my CV and research. If you're a student, some links might be useful (or not).
+On this webpage, you can access my CV and research. 
 
 <div style="text-align: center; margin-top: 2em; font-size: 0.9em; line-height: 1.5em;">
 <strong>CONTACT INFORMATION</strong><br>
