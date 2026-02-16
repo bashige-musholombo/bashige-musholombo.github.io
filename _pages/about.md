@@ -16,7 +16,6 @@ social:
     - type: file
       url: /assets/pdf/CV_Bashige.pdf
 
-# Remove unnecessary sections
 selected_papers: false
 announcements:
   enabled: false
@@ -24,7 +23,7 @@ latest_posts:
   enabled: false
 ---
 
-<div style="margin-top: 2rem;"></div>
+<div style="margin-top: 3rem;"></div>
 
 Hi there! I am a PhD student in Economics at [KU Leuven](https://feb.kuleuven.be/research/economics/economics). Prior to this, I completed graduate studies at [Goethe University Frankfurt](https://www.gsefm.eu/de/about-us.html), the [University of Bonn](https://www.econ.uni-bonn.de/en), and [Paris 1 Sorbonne](https://economie.pantheonsorbonne.fr/).
 
