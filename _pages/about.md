@@ -12,22 +12,17 @@ social:
   enabled: true
   icons:
     - type: email
-      url: mailto:paterne.bashige@kuleuven.be
+      url: mailto:your.email@domain.com
     - type: file
-      url: /assets/pdf/CV_Bashige.pdf
+      url: /assets/pdf/CV.pdf
 
+# Remove unnecessary sections
 selected_papers: false
 announcements:
   enabled: false
 latest_posts:
   enabled: false
 ---
-
-<style>
-  .profile {
-    margin-top: 45px; /* Increase this number to move it lower */
-  }
-</style>
 
 Hi there! I am a PhD student in Economics at [KU Leuven](https://feb.kuleuven.be/research/economics/economics). Prior to this, I completed graduate studies at [Goethe University Frankfurt](https://www.gsefm.eu/de/about-us.html), the [University of Bonn](https://www.econ.uni-bonn.de/en), and [Paris 1 Sorbonne](https://economie.pantheonsorbonne.fr/).
 
