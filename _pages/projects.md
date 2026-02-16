@@ -1,65 +1,48 @@
 ---
 layout: page
 title: Links
-permalink: /projects/
+permalink: /links/
 description: Below, I'll be sharing links to resources that I find particularly useful.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+## 📚 Macroeconomics
 
-{% else %}
+- **Recursive Macroeconomic Theory** — Lars Ljungqvist & Thomas J. Sargent  
+  https://mitpress.mit.edu/9780262122960/recursive-macroeconomic-theory/
 
-<!-- Display projects without categories -->
+- **Goethe University Workshop on Heterogeneous-Agent Macroeconomics**  
+  (A. Auclert, M. Rognlie, L. Straub)  
+  https://www.gsefm.eu
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+- **QuantEcon** — Thomas J. Sargent & John Stachurski  
+  https://quantecon.org/
 
-  <!-- Generate cards for each project -->
+- **E. Sims’ Macroeconomics Course Materials**  
+  https://sims.princeton.edu/yftp/
 
-{% if page.horizontal %}
+---
 
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
-</div>
+## 📐 Mathematical Methods & Statistics
+
+- **Cheat Sheets for Mathematical Statistics** — Kyle Siegrist  
+  https://stats.libretexts.org/Bookshelves/Probability_Theory
+
+- **M. J. Osborne – Mathematical Methods for Economic Theory**  
+  https://economics.utoronto.ca/osborne/MathTutorial/
+
+---
+
+## 💻 Computational Methods
+
+- **GDSGE – Global DSGE Solution Methods**  
+  (D. Cao, W. Luo, G. Nie)  
+  https://www.gdsge.com/
+
+- **Global Solution Methods** — S. Scheidegger  
+  https://sites.google.com/site/scheidegger/
+
+---
+
+## More to come soon.
