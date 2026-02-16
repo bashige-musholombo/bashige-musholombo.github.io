@@ -30,7 +30,7 @@ My primary research interests lie in Macroeconomics, with particular attention t
 
 On this webpage, you can access my CV and research. If you're a student, some links might be useful (or not).
 
-<div style="text-align: center; margin-top: 1em;">
+<div style="text-align: center; margin-top: 2em; font-size: 0.9em; line-height: 1.5em;">
 <strong>CONTACT INFORMATION</strong><br>
 Department of Economics<br>
 Room 02.158, Naamsestraat 69<br>
