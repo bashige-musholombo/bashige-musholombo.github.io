@@ -12,9 +12,9 @@ social:
   enabled: true
   icons:
     - type: email
-      url: mailto:your.email@domain.com
+      url: mailto:paterne.bashige@kuleuven.be
     - type: file
-      url: /assets/pdf/CV.pdf
+      url: /assets/pdf/CV_Bashige.pdf
 
 # Remove unnecessary sections
 selected_papers: false
