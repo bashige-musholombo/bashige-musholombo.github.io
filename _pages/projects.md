@@ -12,7 +12,7 @@ nav_order: 5
 
 - [**A comprehensive textbook for first-year Ph.D. courses in Macroeconomics.**](https://phdmacrobook.org/)
 
-- [**Goethe University workshop on Heterogeneous-Agent Macroeconomics — by A. Auclert, M. Rognlie and L. Straub.**]([https://www.gsefm.eu](https://sequence-space.com/goethe/))
+- [**Goethe University workshop on Heterogeneous-Agent Macroeconomics — by A. Auclert, M. Rognlie and L. Straub.**]([https://www.gsefm.eu](https://sequence-space.com/goethe/)
 
 - [**QuantEcon — by T. J. Sargent and J. Stachurski**](https://quantecon.org/)
 
