@@ -35,7 +35,7 @@ ninja.data = [{
           description: "Below, I&#39;ll be sharing links to resources that I find particularly useful. If you&#39;re a student, you might find them useful (or not).",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/links/";
+            window.location.href = "/projects/";
           },
         },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
         
