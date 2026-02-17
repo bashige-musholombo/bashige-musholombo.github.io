@@ -8,7 +8,7 @@ nav: true
 nav_order: 5
 ---
 
-## 📚 Macro
+## 📈 Macro
 
 - [**A comprehensive textbook for first-year Ph.D. courses in Macroeconomics.**](https://phdmacrobook.org/)
 
@@ -20,7 +20,7 @@ nav_order: 5
 
 ---
 
-## 📐 Cheat Sheets
+## 🔢 Cheat Sheets
 
 - [**Random — Cheat sheets for topics in mathematical statistics — by K. Siegrist**](https://www.randomservices.org/random/index.html)
 
@@ -36,4 +36,4 @@ nav_order: 5
 
 ---
 
-## 🚧 More to come
+## ⏳ More to come
