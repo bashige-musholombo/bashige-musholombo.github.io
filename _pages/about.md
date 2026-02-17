@@ -26,7 +26,7 @@ latest_posts:
 
 <style>
   .profile .social {
-    margin-right: 50px; /* Increase this number to move them further left */
+    margin-right: 60px; /* Increase this number to move them further left */
   }
 </style>
 
