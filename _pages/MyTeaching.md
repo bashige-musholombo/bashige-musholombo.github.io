@@ -14,7 +14,7 @@ nav_order: 3
 * **Academic Years:** Spring 2025, Spring 2026–
 * **Level:** Research Master / 1st Year PhD
 
-<br>
+---
 
 ### Introduction to Macroeconomics
 
@@ -23,7 +23,7 @@ nav_order: 3
 * **Academic Years:** Spring 2026–
 * **Level:** Bachelor
 
-<br>
+---
 
 ### Master Thesis Advising
 
