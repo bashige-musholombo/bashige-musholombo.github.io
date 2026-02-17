@@ -21,7 +21,7 @@ nav_order: 3
 * [Syllabus](/assets/pdf/Syllabus-Intro_Spring2026.pdf)
 * TA for Prof. Christian Pröbsting
 * **Academic Years:** Spring 2026–
-* **Level:** Bachelor
+* **Level:** Bachelor (computer science)
 
 ---
 
