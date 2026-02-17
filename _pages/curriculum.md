@@ -6,4 +6,4 @@ nav: true
 nav_order: 4
 ---
 
-Here is a link to [Download my CV](/assets/pdf/CV_Bashige.pdf).
+You can download a copy of my CV [here](/assets/pdf/CV_Bashige.pdf).
