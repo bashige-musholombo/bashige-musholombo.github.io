@@ -8,9 +8,11 @@ cv_pdf: /assets/pdf/CV_Bashige.pdf
 # 2. Your Email
 email: paterne.bashige@kuleuven.be
 
-# 3. Google Scholar (Custom Link with Local Image)
+# 3. Google Scholar (Main Page)
+# Since you don't have a profile ID yet, we use custom_social to link to the main page.
 custom_social:
-  logo: /assets/img/Google_Scholar.png
+  # This uses a standard Google Scholar icon from Wikimedia
+  logo: https://img.icons8.com/?size=100&id=Vtn3wxdq5EtE&format=png&color=000000
   title: Google Scholar
   url: https://scholar.google.com/
 
