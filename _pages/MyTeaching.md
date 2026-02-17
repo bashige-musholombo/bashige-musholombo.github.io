@@ -28,3 +28,4 @@ nav_order: 3
 ### Master Thesis Advising
 
 * **Academic Years:** Spring 2025, Spring 2026–
+* **Topics Include:** The effects of the Frankenshock on inflation, Political pressure on the FED and interest rates, etc.
