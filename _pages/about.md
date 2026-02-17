@@ -24,6 +24,12 @@ latest_posts:
   enabled: false
 ---
 
+<style>
+  .profile .social {
+    margin-right: 30px; /* Increase this number to move them further left */
+  }
+</style>
+
 <div style="margin-top: 2rem;"></div>
 
 Hi there! I am a PhD student in Economics at [KU Leuven](https://feb.kuleuven.be/research/economics/economics). Prior to this, I completed graduate studies at [Goethe University Frankfurt](https://www.gsefm.eu/de/about-us.html), the [University of Bonn](https://www.econ.uni-bonn.de/en), and [Paris 1 Sorbonne](https://economie.pantheonsorbonne.fr/).
