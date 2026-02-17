@@ -51,11 +51,11 @@ latest_posts:
 
 <div style="margin-top: 2rem;"></div>
 
-Hi there! I am a PhD student in Economics at [KU Leuven](https://feb.kuleuven.be/research/economics/economics). Prior to this, I completed graduate studies at [Goethe University Frankfurt](https://www.gsefm.eu/de/about-us.html), the [University of Bonn](https://www.econ.uni-bonn.de/en), and [Paris 1 Sorbonne](https://economie.pantheonsorbonne.fr/).
+Hi there! I am a PhD student in Economics at [KU Leuven](https://feb.kuleuven.be/research/economics/economics) under the supervision of [Christian Pröbsting](https://sites.google.com/site/proebstingchristian/home). I previously completed graduate studies at [Goethe University Frankfurt](https://www.gsefm.eu/de/about-us.html), the [University of Bonn](https://www.econ.uni-bonn.de/en), and [Paris 1 Sorbonne](https://economie.pantheonsorbonne.fr/).
 
-My primary research interests lie in Macroeconomics, with particular attention to International Macro and Monetary Economics. I also have an interest in Political Economy.
+My fields of interest are Macroeconomics, International Macroeconomics and Political Economy.
 
-On this webpage, you can access my CV and research. 
+My research is funded by the [FWO](https://www.fwo.be/en/about-fwo/who-is-fwo/) through a fundemental research grant. 
 
 <div class="contact-wrapper">
   <strong>CONTACT INFORMATION</strong><br>
