@@ -47,13 +47,9 @@ latest_posts:
   My primary research interests lie in Macroeconomics, with particular attention to International Macro and Monetary Economics. I also have an interest in Political Economy.
 
   On this webpage, you can access my CV and research. 
-</div>
-
-<div style="clear: both; display: block; height: 50px;"></div>
-
-<div style="width: 100%; text-align: center; margin: 0 auto;">
-  <strong>CONTACT INFORMATION</strong><br>
-  Department of Economics<br>
-  Room 02.158, Naamsestraat 69<br>
-  3000 Leuven, Belgium
+<div style="text-align: center; margin-top: 2em; font-size: 0.9em; line-height: 1.5em;">
+<strong>CONTACT INFORMATION</strong><br>
+Department of Economics<br>
+Room 02.158, Naamsestraat 69<br>
+3000 Leuven, Belgium
 </div>
