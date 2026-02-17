@@ -2,8 +2,19 @@
 # Social Media Links
 # -----------------------------------------------------------------------------
 
+# 1. Your CV
 cv_pdf: /assets/pdf/CV_Bashige.pdf
+
+# 2. Your Email
 email: paterne.bashige@kuleuven.be
+
+# 3. Google Scholar (Main Page)
+# Since you don't have a profile ID yet, we use custom_social to link to the main page.
+custom_social:
+  # This uses a standard Google Scholar icon from Wikimedia
+  logo: https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg
+  title: Google Scholar
+  url: https://scholar.google.com/
 
 # -----------------------------------------------------------------------------
 # Unwanted / Disabled Icons (Commented out with #)
@@ -14,8 +25,3 @@ email: paterne.bashige@kuleuven.be
 # scholar_userid: qc6CJjYAAAAJ
 # wechat_qr:
 # whatsapp_number:
-
-# custom_social:
-#   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png
-#   title: Custom Social
-#   url: https://www.alberteinstein.com/
