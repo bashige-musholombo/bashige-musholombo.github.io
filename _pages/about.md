@@ -31,7 +31,7 @@ latest_posts:
   
   /* 2. Style for social icons */
   .social {
-    padding-right: 270px; 
+    padding-right: 200px; 
   }
   
   /* 3. Style for Contact Info */
