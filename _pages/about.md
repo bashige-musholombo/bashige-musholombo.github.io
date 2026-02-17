@@ -33,23 +33,33 @@ latest_posts:
   .social {
     padding-right: 270px; 
   }
+  
+  /* 3. Style for Contact Info */
+  .contact-wrapper {
+    clear: both;           /* Forces it below the profile picture */
+    width: 100%;           /* Spans the full page width */
+    text-align: center;    /* Centers the text */
+    margin-top: 3rem; 
+    padding-top: 1rem;
+    border-top: 1px solid #eee; /* Optional: adds a nice separator line */
+  }
 </style>
 
 <h1 class="post-title" style="margin-bottom: 20px;">
   <span style="font-weight: 900;">Bashige</span> Musholombo
 </h1>
 
-<div class="clearfix">
-  <div style="margin-top: 2rem;"></div>
+<div style="margin-top: 2rem;"></div>
 
-  Hi there! I am a PhD student in Economics at [KU Leuven](https://feb.kuleuven.be/research/economics/economics). Prior to this, I completed graduate studies at [Goethe University Frankfurt](https://www.gsefm.eu/de/about-us.html), the [University of Bonn](https://www.econ.uni-bonn.de/en), and [Paris 1 Sorbonne](https://economie.pantheonsorbonne.fr/).
+Hi there! I am a PhD student in Economics at [KU Leuven](https://feb.kuleuven.be/research/economics/economics). Prior to this, I completed graduate studies at [Goethe University Frankfurt](https://www.gsefm.eu/de/about-us.html), the [University of Bonn](https://www.econ.uni-bonn.de/en), and [Paris 1 Sorbonne](https://economie.pantheonsorbonne.fr/).
 
-  My primary research interests lie in Macroeconomics, with particular attention to International Macro and Monetary Economics. I also have an interest in Political Economy.
+My primary research interests lie in Macroeconomics, with particular attention to International Macro and Monetary Economics. I also have an interest in Political Economy.
 
-  On this webpage, you can access my CV and research. 
-<div style="text-align: center; margin-top: 2em; font-size: 0.9em; line-height: 1.5em;">
-<strong>CONTACT INFORMATION</strong><br>
-Department of Economics<br>
-Room 02.158, Naamsestraat 69<br>
-3000 Leuven, Belgium
+On this webpage, you can access my CV and research. 
+
+<div class="contact-wrapper">
+  <strong>CONTACT INFORMATION</strong><br>
+  Department of Economics<br>
+  Room 02.158, Naamsestraat 69<br>
+  3000 Leuven, Belgium
 </div>
