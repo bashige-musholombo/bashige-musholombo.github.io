@@ -37,7 +37,7 @@ latest_posts:
 </style>
 
 <h1 class="post-title" style="margin-bottom: 20px;">
-  <span style="font-weight: 900;">Paterne</span> Bashige
+  <span style="font-weight: 900;">Bashige</span> Musholombo
 </h1>
 
 <div style="margin-top: 2rem;"></div>
