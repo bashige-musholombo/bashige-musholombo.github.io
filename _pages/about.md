@@ -28,7 +28,7 @@ latest_posts:
   /* This targets the social icons container directly */
   .social {
     /* If the icons are centered, adding padding-right pushes them to the left */
-    padding-right: 200px; 
+    padding-right: 250px; 
     
     /* Alternatively, if you want them strictly on the left side, use: */
     /* text-align: left; */
