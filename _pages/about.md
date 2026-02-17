@@ -25,8 +25,13 @@ latest_posts:
 ---
 
 <style>
-  .profile .social {
-    margin-right: 60px; /* Increase this number to move them further left */
+  /* This targets the social icons container directly */
+  .social {
+    /* If the icons are centered, adding padding-right pushes them to the left */
+    padding-right: 150px; 
+    
+    /* Alternatively, if you want them strictly on the left side, use: */
+    /* text-align: left; */
   }
 </style>
 
