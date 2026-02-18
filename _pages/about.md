@@ -55,7 +55,7 @@ Welcome! I am a PhD student in Economics at [KU Leuven](https://feb.kuleuven.be/
 
 My fields of interest are Macroeconomics, International Macroeconomics and Political Economy.
 
-My research is funded by the [FWO](https://www.fwo.be/en/about-fwo/who-is-fwo/) through a fundemental research grant. 
+My research is funded by the [FWO](https://www.fwo.be/en/about-fwo/who-is-fwo/) under its fundamental research grant programme.
 
 <div class="contact-wrapper">
   <strong>CONTACT INFORMATION</strong><br>
