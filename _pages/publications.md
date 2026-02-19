@@ -11,7 +11,7 @@ nav_order: 2
 <style>
 .research-title {
   color: var(--global-theme-color);  /* uses al-folio theme blue */
-  font-weight: 600;
+  font-weight: 500;
   margin-top: 3rem;
   margin-bottom: 1rem;
   padding-bottom: 0.3rem;
@@ -21,7 +21,7 @@ nav_order: 2
 
 <div class="publications">
 
-<h2 class="research-title">Publications</h2>
+<h2 class="research-title">Publication</h2>
 
 {% bibliography --query @*[keywords~=publication] %}
 
