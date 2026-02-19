@@ -7,21 +7,29 @@ nav: true
 nav_order: 2
 ---
 
+<!-- Inline styling -->
+<style>
+.research-title {
+  color: var(--global-theme-color);  /* uses al-folio theme blue */
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid var(--global-theme-color);
+}
+</style>
+
 <div class="publications">
 
-<h2>Publications</h2>
+<h2 class="research-title">Publications</h2>
 
 {% bibliography --query @*[keywords~=publication] %}
 
-<hr>
-
-<h2>Working Papers</h2>
+<h2 class="research-title">Working Papers</h2>
 
 {% bibliography --query @*[keywords~=working] %}
 
-<hr>
-
-<h2>Work in Progress</h2>
+<h2 class="research-title">Work in Progress</h2>
 
 {% bibliography --query @*[keywords~=wip] %}
 
