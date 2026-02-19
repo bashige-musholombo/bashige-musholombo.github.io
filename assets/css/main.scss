@@ -40,13 +40,9 @@
 
 
 /* ===================================== */
-/* Force link color to stay blue always  */
+/* Keep al-folio default blue in dark mode */
 /* ===================================== */
 
-:root {
-  --global-theme-color: #1a73e8;
-}
-
 html[data-theme="dark"] {
-  --global-theme-color: #1a73e8;
+  --global-theme-color: var(--global-theme-color-light);
 }
