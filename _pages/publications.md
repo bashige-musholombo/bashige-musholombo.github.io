@@ -10,7 +10,7 @@ nav_order: 2
 <!-- Inline styling -->
 <style>
 .research-title {
-  color: var(--global-theme-color);  /* uses al-folio theme blue */
+  color: var(--global-theme-color);
   font-weight: 500;
   margin-top: 3rem;
   margin-bottom: 1rem;
@@ -25,12 +25,12 @@ nav_order: 2
 
 {% bibliography --query @*[keywords~=publication] %}
 
+<!--
 <h2 class="research-title">Working Papers</h2>
-
 {% bibliography --query @*[keywords~=working] %}
 
 <h2 class="research-title">Work in Progress</h2>
-
 {% bibliography --query @*[keywords~=wip] %}
+-->
 
 </div>
