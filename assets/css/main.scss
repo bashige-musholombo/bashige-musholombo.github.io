@@ -38,3 +38,17 @@
 @use "font-awesome/solid";
 @use "font-awesome/regular";
 
+
+/* ========================================================= */
+/*   Change link color in Light Mode                        */
+/*   From default (magenta) to chocolate brown               */
+/* ========================================================= */
+
+html[data-theme="light"] {
+  --global-theme-color: #7B3F00; /* main link color */
+}
+
+/* Darker shade on hover for subtle visual feedback */
+html[data-theme="light"] a:hover {
+  color: #5A2E00;
+}
