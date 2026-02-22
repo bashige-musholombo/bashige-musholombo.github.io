@@ -25,8 +25,8 @@ nav_order: 3
 
 ---
 
-### Master Thesis Tutoring
-
+### Master Thesis Supervision
+* For Prof. Christian Pröbsting
 * **Academic Years:** Spring 2025, Spring 2026–
 * **Topics:** The effects of the Frankenshock on inflation, Political pressure on the FED and interest rates, etc. 
 
