@@ -51,7 +51,7 @@ latest_posts:
 
 <div style="margin-top: 2rem;"></div>
 
-Welcome! I am a PhD student in Economics at [KU Leuven](https://feb.kuleuven.be/research/economics/economics), under the supervision of [Christian Pröbsting](https://sites.google.com/site/proebstingchristian/home). I previously completed graduate studies at [Goethe University Frankfurt](https://www.gsefm.eu/de/about-us.html), the [University of Bonn](https://www.econ.uni-bonn.de/en), and [Paris 1 Sorbonne](https://economie.pantheonsorbonne.fr/).
+Welcome! I am a PhD student in Economics at [KU Leuven](https://feb.kuleuven.be/research/economics/economics), advised by [Christian Pröbsting](https://sites.google.com/site/proebstingchristian/home). I previously completed graduate studies at [Goethe University Frankfurt](https://www.gsefm.eu/de/about-us.html), the [University of Bonn](https://www.econ.uni-bonn.de/en), and [Paris 1 Sorbonne](https://economie.pantheonsorbonne.fr/).
 
 My fields of interest are Macroeconomics, International Macroeconomics and Political Economy.
 
