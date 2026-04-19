@@ -4,6 +4,7 @@
 
 @use "variables" as v;
 
+body,
 p,
 h1,
 h2,
@@ -17,6 +18,7 @@ li,
 span,
 strong {
   color: var(--global-text-color);
+  font-family: 'Lora', Georgia, serif !important;
 }
 
 hr {
