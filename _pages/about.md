@@ -57,9 +57,11 @@ My fields of interest are Macroeconomics, International Macroeconomics and Polit
 
 My research is funded by the [FWO](https://www.fwo.be/en/about-fwo/who-is-fwo/) under its fundamental research grant programme.
 
-<div class="contact-wrapper">
+<div class="contact-wrapper" style="margin-top: 30px; font-size: 0.85rem;">
   <strong>CONTACT INFORMATION</strong><br>
   Department of Economics<br>
   Room 02.158, Naamsestraat 69<br>
+  3000 Leuven, Belgium
+</div>
   3000 Leuven, Belgium
 </div>
