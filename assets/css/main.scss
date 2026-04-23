@@ -45,14 +45,14 @@
 
 /* Light Mode: Cyan */
 :root, html[data-theme="light"] {
-  --global-theme-color: #2698ba; /* cyan hex code */
-  --global-hover-color: #2698ba;
-  --global-highlight-color: #2698ba;
-}
-
-/* Dark Mode: Brown */
-html[data-theme="dark"] {
-  --global-theme-color: #00ACC1; 
+  --global-theme-color: #00ACC1; /* cyan hex code */
   --global-hover-color: #00ACC1;
   --global-highlight-color: #00ACC1;
+}
+
+/* Dark Mode */
+html[data-theme="dark"] {
+  --global-theme-color: #e0af68; 
+  --global-hover-color: #e0af68;
+  --global-highlight-color: #e0af68;
 }
