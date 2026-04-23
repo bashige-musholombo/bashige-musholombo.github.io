@@ -40,11 +40,19 @@
 
 
 /* ========================================================= */
-/*   Change link color in Light Mode                        */
-/*   From default (magenta) to brown                         */
+/* Custom Theme Colors Override                            */
 /* ========================================================= */
 
-html[data-theme="light"] {
-  --global-theme-color: #C74718; /* brown */
+/* Light Mode: Cyan */
+:root, html[data-theme="light"] {
+  --global-theme-color: #2698ba; /* cyan hex code */
+  --global-hover-color: #2698ba;
+  --global-highlight-color: #2698ba;
 }
 
+/* Dark Mode: Brown */
+html[data-theme="dark"] {
+  --global-theme-color: #C74718; /* your exact brown hex code */
+  --global-hover-color: #C74718;
+  --global-highlight-color: #C74718;
+}
