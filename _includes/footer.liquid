@@ -1,5 +1,5 @@
 {% capture footer_contents %}
-  <span style="font-size: 0.75em; color: var(--global-text-color);">
+  <small class="text-muted">
     &copy; Copyright {{ site.time | date: '%Y' }}
     {{ site.first_name }}
     {{ site.middle_name }}
@@ -10,7 +10,7 @@
     {% if site.last_updated %}
       Last updated: {{ 'now' | date: '%B %d, %Y' }}.
     {% endif %}
-  </span>
+  </small>
 {% endcapture %}
 
 {% if site.footer_fixed %}
