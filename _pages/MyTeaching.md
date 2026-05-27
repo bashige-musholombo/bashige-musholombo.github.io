@@ -12,7 +12,7 @@ nav_order: 3
 * [Syllabus](/assets/pdf/Syllabus-Topics_Spring2026.pdf)
 * TA for Prof. Christian Pröbsting
 * **Academic Years:** Spring 2025, Spring 2026–
-* **Level:** Research Master / 1st Year PhD
+* **Level:** Research Master / PhD
 
 ---
 
