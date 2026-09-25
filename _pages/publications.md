@@ -21,7 +21,7 @@ nav_order: 2
 
 <div class="publications">
 
-<h2 class="research-title">Publication</h2>
+<h2 class="research-title">Pre-PhD Research</h2>
 
 {% bibliography --query @*[keywords~=publication] %}
 
