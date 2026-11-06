@@ -23,16 +23,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "nav-links",
           title: "Links",
-          description: "Below, I’ll share some resources I’ve found useful along the way. If you are a student, you might find them useful too—or maybe not.",
+          description: "Below, I’ll share some resources I’ve found useful along the way. That will most likely happen when I am procrastinating.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/links/";
