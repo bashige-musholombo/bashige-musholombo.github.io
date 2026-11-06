@@ -14,8 +14,6 @@ page_class: teaching-page # extra CSS class, see _sass/_components.scss
 * TA for Prof. Christian Pröbsting · Spring 2025, Spring 2026–
 * **Level:** Research Master / PhD
 
----
-
 ### Introduction to Macroeconomics
 
 * [Syllabus](/assets/pdf/Syllabus-Intro_Spring2026.pdf)

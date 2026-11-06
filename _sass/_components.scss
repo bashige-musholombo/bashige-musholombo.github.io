@@ -265,11 +265,8 @@ ul.task-list input[type="checkbox"] {
 // Collapsible sections (Links page)
 
 details.link-section {
-  border-bottom: 1px solid var(--global-divider-color);
-
-  &:first-of-type {
-    border-top: 1px solid var(--global-divider-color);
-  }
+  /* No separator lines between sections */
+  border: 0;
 
   > summary {
     display: flex;
@@ -290,17 +287,17 @@ details.link-section {
       display: none;
     }
 
-    /* Chevron on the right that rotates when the section opens */
+    /* Thin plus sign on the right; turns into a minus when the section opens */
     &::after {
       content: "";
       flex-shrink: 0;
-      width: 0.6rem;
-      height: 0.6rem;
+      width: 0.85rem;
+      height: 0.85rem;
       margin-left: 1rem;
-      border-right: 2px solid currentColor;
-      border-bottom: 2px solid currentColor;
-      transform: rotate(45deg) translateY(-25%);
-      transition: transform 0.2s ease;
+      background:
+        linear-gradient(currentColor, currentColor) center / 100% 1.5px no-repeat,
+        linear-gradient(currentColor, currentColor) center / 1.5px 100% no-repeat;
+      transition: background-size 0.2s ease;
     }
 
     &:hover {
@@ -321,7 +318,8 @@ details.link-section {
     color: var(--global-theme-color);
 
     &::after {
-      transform: rotate(-135deg) translateY(-25%);
+      /* hide the vertical bar: + becomes − */
+      background-size: 100% 1.5px, 1.5px 0;
     }
   }
 
