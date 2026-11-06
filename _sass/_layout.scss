@@ -4,6 +4,12 @@
 
 @use "variables" as v;
 
+// Always reserve room for the scrollbar so pages don't shift sideways
+// when moving between short and long pages.
+html {
+  scrollbar-gutter: stable;
+}
+
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
@@ -21,7 +27,7 @@ body {
 
 body.fixed-top-nav {
   // Add some padding for the nav-bar.
-  padding-top: 57px;
+  padding-top: 64px; // must equal the navbar min-height in _navbar.scss
 }
 
 body.sticky-bottom-footer {

@@ -6,9 +6,24 @@
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 0;
   background-color: var(--global-bg-color);
-  opacity: 0.95;
+  opacity: 0.97;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  min-height: 64px; // fixed height so the page never shifts after loading (matches body padding in _layout.scss)
+
+  .navbar-brand.title {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding-left: 0.85rem;
+    padding-right: 0.85rem;
+  }
 }
 
 .navbar .dropdown-menu,
@@ -155,26 +170,101 @@
   }
 }
 
-#light-toggle {
+/* Light / dark mode: phone-style on/off switch */
+.navbar-nav .toggle-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.5rem 0 0.5rem 0.75rem;
+}
+
+#light-toggle.theme-switch {
   padding: 0;
   border: 0;
-  background-color: inherit;
-  color: var(--global-text-color);
-  /* Fix footprint to prevent navbar shifting when icon changes */
-  width: 2rem;
-  height: 2rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  background: none;
+  cursor: pointer;
+  line-height: 0;
+  border-radius: 999px;
 
-  &:hover {
-    color: var(--global-hover-color);
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-theme-color);
+    outline-offset: 3px;
+  }
+
+  .theme-switch-track {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 38px;
+    height: 20px;
+    padding: 0 5px;
+    border-radius: 999px;
+    background-color: #e4e7eb;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12);
+    transition: background-color 0.25s ease;
+  }
+
+  .theme-switch-icon {
+    font-size: 0.5rem;
+    line-height: 1;
+    z-index: 0;
+  }
+
+  .theme-switch-sun {
+    color: #f5a623;
+  }
+
+  .theme-switch-moon {
+    color: #8a94a3;
+  }
+
+  .theme-switch-thumb {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1;
+  }
+
+  &:hover .theme-switch-thumb {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.35);
   }
 }
 
-@media (min-width: 576px) {
-  #light-toggle {
-    transform: translateY(4px);
+/* Dark mode: thumb slides to the right, track takes the accent color */
+html[data-theme="dark"] #light-toggle.theme-switch {
+  .theme-switch-track {
+    background-color: var(--global-theme-color);
+  }
+
+  .theme-switch-sun {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .theme-switch-moon {
+    color: #ffffff;
+  }
+
+  .theme-switch-thumb {
+    transform: translateX(18px);
+    background-color: var(--global-bg-color);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #light-toggle.theme-switch .theme-switch-thumb,
+  #light-toggle.theme-switch .theme-switch-track {
+    transition: none;
   }
 }
 
@@ -186,5 +276,15 @@
 
   &:hover {
     color: var(--global-hover-color);
+  }
+}
+
+/* Name at top left (shown on every page except Home): grey, darker on hover */
+.navbar.navbar-light .navbar-brand.title {
+  color: var(--global-text-color-light);
+  transition: color 0.15s ease;
+
+  &:hover {
+    color: var(--global-text-color);
   }
 }

@@ -4,25 +4,76 @@
 
 @use "variables" as v;
 
-body,
+body {
+  color: var(--global-text-color);
+  font-family: v.$font-family-base;
+  font-size: 1.2rem; // Crimson Pro runs small, so it needs a larger size than most fonts
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
 p,
+em,
+li,
+strong {
+  color: var(--global-text-color);
+}
+
+/* Sans-serif for headings and interface elements, serif for reading text */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-em,
-div,
-li,
-span,
-strong {
+.navbar,
+.btn,
+.post-description,
+.contact-wrapper {
+  font-family: v.$headings-font-family;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--global-text-color);
-  font-family: 'Lora', Georgia, serif !important;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-header {
+  margin-bottom: 2rem;
+
+  .post-title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    color: var(--global-text-color-light); // page name (Research, Teaching, Links) in grey
+  }
+
+  .post-description {
+    color: var(--global-text-color-light);
+    font-size: 1rem;
+    line-height: 1.6;
+  }
 }
 
 hr {
+  border: 0;
   border-top: 1px solid var(--global-divider-color);
+  margin: 2.5rem 0;
 }
 
 table {
@@ -40,6 +91,9 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+  transition: color 0.15s ease;
 
   &:hover {
     color: var(--global-theme-color);
@@ -135,4 +189,10 @@ blockquote {
       color: var(--global-danger-block-title);
     }
   }
+}
+
+// Bold text inside a link keeps the link color
+a strong,
+a b {
+  color: inherit;
 }

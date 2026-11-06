@@ -115,10 +115,20 @@
 
           {% if site.enable_darkmode %}
             <li class="toggle-container">
-              <button id="light-toggle" title="Change theme">
-                <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
-                <i class="fa-solid fa-sun" id="light-toggle-light"></i>
-                <i class="fa-solid fa-circle-half-stroke" id="light-toggle-system"></i>
+              <button
+                id="light-toggle"
+                class="theme-switch"
+                type="button"
+                role="switch"
+                aria-checked="false"
+                aria-label="Dark mode"
+                title="Switch between light and dark mode"
+              >
+                <span class="theme-switch-track" aria-hidden="true">
+                  <i class="fa-solid fa-sun theme-switch-icon theme-switch-sun"></i>
+                  <i class="fa-solid fa-moon theme-switch-icon theme-switch-moon"></i>
+                  <span class="theme-switch-thumb"></span>
+                </span>
               </button>
             </li>
           {% endif %}

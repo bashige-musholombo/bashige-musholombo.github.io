@@ -114,12 +114,15 @@ progress::-moz-progress-bar {
 
 // Themes transition
 
+// Only colors fade, and only when the visitor flips the light/dark switch
+// (animating "all" made pages look like they were moving on every load).
 html.transition,
 html.transition *,
 html.transition *:before,
 html.transition *:after {
-  transition: all 750ms !important;
-  transition-delay: 0 !important;
+  transition-property: color, background-color, border-color, fill, stroke !important;
+  transition-duration: 400ms !important;
+  transition-delay: 0s !important;
 }
 
 // Copy button

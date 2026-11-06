@@ -52,7 +52,16 @@
 
 /* Dark Mode */
 html[data-theme="dark"] {
-  --global-theme-color: #e0af68; 
-  --global-hover-color: #e0af68;
-  --global-highlight-color: #e0af68;
+  --global-theme-color: #4fb3bf; /* teal, the dark-mode version of the light-mode color */
+  --global-hover-color: #4fb3bf;
+  --global-highlight-color: #4fb3bf;
+  --global-hover-text-color: #2a2826; /* dark text on teal buttons when hovered */
+
+  /* Warm charcoal background instead of near-black */
+  --global-bg-color: #2a2826;
+  --global-text-color: #ece8e3;
+  --global-text-color-light: #9a948d;
+  --global-divider-color: #45413d;
+  --global-card-bg-color: #33302d;
+  --global-code-bg-color: #33302d;
 }

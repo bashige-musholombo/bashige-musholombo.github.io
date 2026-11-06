@@ -7,30 +7,36 @@ nav: true
 nav_order: 2
 ---
 
-<!-- Inline styling -->
-<style>
-.research-title {
-  color: var(--global-theme-color);
-  font-weight: 500;
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  padding-bottom: 0.3rem;
-  border-bottom: 2px solid var(--global-theme-color);
-}
-</style>
+<!-- Each section lists the .bib entries whose `keywords` field matches.
+     Sections are separated by a line (<hr>). When a section has no papers yet,
+     a short "coming soon" note is shown instead. -->
 
-<div class="publications">
+<div class="publications research">
 
-<h2 class="research-title">Pre-PhD Research</h2>
+<section class="research-section">
+  <h2 class="research-title">Working Papers</h2>
+  {% capture n_working %}{% bibliography_count --query @*[keywords~=working] %}{% endcapture %}
+  {% if n_working == "0" %}
+    <p class="research-empty">Coming soon.</p>
+  {% else %}
+    {% bibliography --query @*[keywords~=working] --group_by none %}
+  {% endif %}
+</section>
 
-{% bibliography --query @*[keywords~=publication] %}
+<hr>
+
+<section class="research-section">
+  <h2 class="research-title">Pre-PhD Research</h2>
+  {% bibliography --query @*[keywords~=publication] --group_by none %}
+</section>
 
 <!--
-<h2 class="research-title">Working Papers</h2>
-{% bibliography --query @*[keywords~=working] %}
+<hr>
 
-<h2 class="research-title">Work in Progress</h2>
-{% bibliography --query @*[keywords~=wip] %}
+<section class="research-section">
+  <h2 class="research-title">Work in Progress</h2>
+  {% bibliography --query @*[keywords~=wip] --group_by none %}
+</section>
 -->
 
 </div>

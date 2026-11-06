@@ -2,29 +2,39 @@
  * Footer styles
  ******************************************************************************/
 
+/* Footer blends with the page in both light and dark mode */
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  background-color: var(--global-bg-color);
+  border-top: 0;
   font-size: 0.75rem;
 
   .container {
-    color: var(--global-footer-text-color);
+    color: var(--global-text-color-light);
     padding-top: 9px;
     padding-bottom: 8px;
     text-align: center;
   }
 
+  small,
+  small.text-muted {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--global-text-color-light) !important;
+  }
+
+  /* Footer link (e.g. "alshedivat"): same grey as the copyright text, still clickable;
+     underlined on hover so visitors can tell it is a link */
   a {
-    color: var(--global-footer-link-color);
+    color: inherit !important;
 
     &:hover {
-      color: var(--global-theme-color);
-      text-decoration: none;
+      color: var(--global-text-color) !important;
+      text-decoration: underline;
     }
   }
 }
 
 footer.sticky-bottom {
-  border-top: 1px solid var(--global-divider-color);
+  border-top: 0;
   padding-top: 40px;
   padding-bottom: 40px;
   font-size: 0.9rem;

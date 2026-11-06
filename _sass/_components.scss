@@ -1,3 +1,5 @@
+@use "variables" as v;
+
 /*******************************************************************************
  * Reusable component styles: Cards, captions, profiles, etc.
  ******************************************************************************/
@@ -258,4 +260,120 @@ ul.task-list input[type="checkbox"] {
 
 .d2h-diff-table {
   position: relative;
+}
+
+// Collapsible sections (Links page)
+
+details.link-section {
+  border-bottom: 1px solid var(--global-divider-color);
+
+  &:first-of-type {
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  > summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    list-style: none;
+    padding: 1.1rem 0.25rem;
+    font-family: v.$headings-font-family;
+    font-size: 1.35rem;
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    color: var(--global-text-color);
+    transition: color 0.15s ease;
+    user-select: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    /* Chevron on the right that rotates when the section opens */
+    &::after {
+      content: "";
+      flex-shrink: 0;
+      width: 0.6rem;
+      height: 0.6rem;
+      margin-left: 1rem;
+      border-right: 2px solid currentColor;
+      border-bottom: 2px solid currentColor;
+      transform: rotate(45deg) translateY(-25%);
+      transition: transform 0.2s ease;
+    }
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 2px;
+    }
+  }
+
+  &[open] > summary {
+    color: var(--global-theme-color);
+
+    &::after {
+      transform: rotate(-135deg) translateY(-25%);
+    }
+  }
+
+  > ul {
+    padding-left: 1.5rem;
+    padding-bottom: 0.75rem;
+    margin: 0;
+
+    li {
+      margin-bottom: 0.3rem;
+
+      /* blank lines between items in the Markdown wrap them in <p>; drop that extra gap */
+      > p {
+        margin: 0;
+      }
+
+      /* Grey text and bullets; accent color + underline only on hover */
+      color: var(--global-text-color-light);
+
+      a,
+      a strong {
+        color: var(--global-text-color-light);
+      }
+
+      a:hover,
+      a:hover strong {
+        color: var(--global-theme-color);
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.link-more {
+  margin-top: 2rem;
+  font-family: v.$headings-font-family;
+  color: var(--global-text-color-light);
+}
+
+// Teaching page: bullet-point content in grey (links turn accent color on hover)
+
+.teaching-page article ul li {
+  color: var(--global-text-color-light);
+
+  strong,
+  em,
+  a {
+    color: var(--global-text-color-light);
+  }
+
+  a:hover {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+  }
 }

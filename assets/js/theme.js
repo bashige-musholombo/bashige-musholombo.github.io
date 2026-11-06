@@ -1,14 +1,17 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
-// Toggle through light, dark, and system theme settings.
+// Flip between light and dark (the navbar control is an on/off switch).
+// Until the visitor clicks it, the site follows their system preference.
 let toggleThemeSetting = () => {
-  let themeSetting = determineThemeSetting();
-  if (themeSetting == "system") {
-    setThemeSetting("light");
-  } else if (themeSetting == "light") {
-    setThemeSetting("dark");
-  } else {
-    setThemeSetting("system");
+  transTheme();
+  setThemeSetting(determineComputedTheme() == "dark" ? "light" : "dark");
+};
+
+// Keep the switch's accessible state in sync with the active theme.
+let updateThemeSwitch = (theme) => {
+  const themeSwitch = document.getElementById("light-toggle");
+  if (themeSwitch) {
+    themeSwitch.setAttribute("aria-checked", theme == "dark" ? "true" : "false");
   }
 };
 
@@ -25,7 +28,6 @@ let setThemeSetting = (themeSetting) => {
 let applyTheme = () => {
   let theme = determineComputedTheme();
 
-  transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
   setSearchTheme(theme);
@@ -58,6 +60,7 @@ let applyTheme = () => {
   }
 
   document.documentElement.setAttribute("data-theme", theme);
+  updateThemeSwitch(theme);
 
   // Add class to tables.
   let tables = document.getElementsByTagName("table");
@@ -299,6 +302,7 @@ let initTheme = () => {
   // Add event listener to the theme toggle button.
   document.addEventListener("DOMContentLoaded", function () {
     const mode_toggle = document.getElementById("light-toggle");
+    updateThemeSwitch(determineComputedTheme());
 
     mode_toggle.addEventListener("click", function () {
       toggleThemeSetting();
