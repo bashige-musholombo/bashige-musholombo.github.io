@@ -359,19 +359,21 @@ details.link-section {
   color: var(--global-text-color-light);
 }
 
-// Teaching page: bullet-point content in grey (links turn accent color on hover)
+// Teaching page: bullet-point text in grey; links (e.g. Syllabus) in the accent color
 
 .teaching-page article ul li {
   color: var(--global-text-color-light);
 
   strong,
-  em,
-  a {
+  em {
     color: var(--global-text-color-light);
   }
 
-  a:hover {
+  a {
     color: var(--global-theme-color);
+  }
+
+  a:hover {
     text-decoration: underline;
   }
 }

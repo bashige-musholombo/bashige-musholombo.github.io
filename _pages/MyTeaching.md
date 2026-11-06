@@ -11,7 +11,7 @@ page_class: teaching-page # extra CSS class, see _sass/_components.scss
 ### Advanced Topics in Macroeconomics
 
 * [Syllabus](/assets/pdf/Syllabus-Topics_Spring2026.pdf)
-* TA for Prof. Christian Pröbsting · Spring 2025, Spring 2026–
+* TA for Prof. Christian Pröbsting · Spring 2025–
 * **Level:** Research Master / PhD
 
 ### Introduction to Macroeconomics
@@ -22,8 +22,8 @@ page_class: teaching-page # extra CSS class, see _sass/_components.scss
 
 ---
 
-### Master Thesis Supervision
-* For Prof. Christian Pröbsting · Spring 2025, Spring 2026–
+### Master Thesis Advising
+* For Prof. Christian Pröbsting · Spring 2025–
 * **Topics:** The effects of the Frankenshock on inflation, Political pressure on the FED and interest rates, etc. 
 
 <!-- * **Topics Include:** The effects of the Frankenshock on inflation, Political pressure on the FED and interest rates, etc. -->
