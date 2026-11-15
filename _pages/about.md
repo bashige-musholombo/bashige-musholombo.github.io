@@ -94,7 +94,7 @@ latest_posts:
 
 <h1 class="home-name"><strong>Bashige</strong> Musholombo</h1>
 
-Welcome to my website! I am currently a PhD candidate in Economics at [KU Leuven](https://feb.kuleuven.be/research/economics/economics), advised by [Christian Pröbsting](https://sites.google.com/site/proebstingchristian/home). Previously, I completed graduate studies at [Goethe University Frankfurt](https://www.gsefm.eu/degree-programs/economics), the [University of Bonn](https://www.econ.uni-bonn.de/en), and [Paris 1 Sorbonne](https://economie.pantheonsorbonne.fr/).
+Welcome to my website! I am currently a PhD candidate in Economics at [KU Leuven](https://feb.kuleuven.be/research/economics/economics), advised by [Christian Pröbsting](https://sites.google.com/site/proebstingchristian/home). Previously, I completed graduate studies at [Goethe University Frankfurt](https://www.gsefm.eu/home), the [University of Bonn](https://www.econ.uni-bonn.de/en), and [Paris 1 Sorbonne](https://economie.pantheonsorbonne.fr/).
 
 My fields of interest are Macroeconomics, International Macroeconomics and Political Economy.
 
