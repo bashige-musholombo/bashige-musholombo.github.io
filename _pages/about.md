@@ -81,8 +81,8 @@ latest_posts:
   }
   .contact-wrapper strong {
     display: block;
-    color: var(--global-theme-color);
-    font-weight: 600;
+    color: var(--global-text-color);
+    font-weight: 700;
     letter-spacing: 0.12em;
     margin-bottom: 0.4rem;
   }

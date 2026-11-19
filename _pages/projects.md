@@ -12,7 +12,7 @@ nav_order: 5
      To add a section, copy a <details> ... </details> block. -->
 
 <details class="link-section" markdown="1">
-<summary>📈 Macro</summary>
+<summary>Macro</summary>
 
 - [**A comprehensive textbook for first-year Ph.D. courses in Macroeconomics.**](https://phdmacrobook.org/)
 
@@ -25,7 +25,7 @@ nav_order: 5
 </details>
 
 <details class="link-section" markdown="1">
-<summary>🔢 Cheat Sheets</summary>
+<summary>Cheat Sheets</summary>
 
 - [**Random — Cheat sheets for topics in mathematical statistics — by K. Siegrist**](https://www.randomservices.org/random/index.html)
 
@@ -34,7 +34,7 @@ nav_order: 5
 </details>
 
 <details class="link-section" markdown="1">
-<summary>💻 Solution Methods</summary>
+<summary>Solution Methods</summary>
 
 - [**GDSGE — Global solution methods for DSGE — by D. Cao, W. Luo and G. Nie**](https://www.gdsge.com/index.html#)
 
@@ -42,4 +42,4 @@ nav_order: 5
 
 </details>
 
-<p class="link-more">⏳ More to come</p>
+<p class="link-more">More to come</p>

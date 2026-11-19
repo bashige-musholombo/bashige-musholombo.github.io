@@ -338,68 +338,66 @@
       }
     }
 
+    /* Links: small spaced capitals separated by thin dots, no boxes */
     .links {
       margin-top: 0.85rem;
+      align-items: baseline;
 
-      /* Informational note, e.g. "Part of my Master thesis": not a button */
-      .note-label {
-        display: inline-block;
+      a.btn,
+      span.btn-soon {
         font-family: v.$headings-font-family;
-        font-size: 0.75rem;
+        font-size: 0.72rem;
         font-weight: 500;
-        letter-spacing: 0.04em;
+        letter-spacing: 0.09em;
         text-transform: uppercase;
         color: var(--global-theme-color);
-        border: 1px solid var(--global-theme-color);
-        border-radius: 999px;
-        padding: 0.3rem 0.9rem;
-        margin: 0 0.35rem 0.35rem 0;
-        line-height: 1.5;
-        cursor: default;
-        user-select: none;
-        vertical-align: middle;
-      }
-
-      a.btn {
-        font-size: 0.75rem;
-        font-weight: 500;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-        border-radius: 999px;
-        border: 1px solid var(--global-divider-color);
-        padding: 0.3rem 0.9rem;
-        margin: 0 0.35rem 0.35rem 0;
+        background: none;
+        border: 0;
+        border-bottom: 1px solid transparent;
+        border-radius: 0;
+        padding: 0 0 0.1rem;
+        margin: 0;
         box-shadow: none;
+        text-decoration: none;
         transition:
           color 0.15s ease,
-          border-color 0.15s ease,
-          background-color 0.15s ease;
+          border-color 0.15s ease;
+      }
 
-        &:hover {
-          color: var(--global-hover-text-color);
-          background-color: var(--global-theme-color);
-          border-color: var(--global-theme-color);
-        }
+      a.btn:hover {
+        color: var(--global-theme-color);
+        background: none;
+        border-bottom-color: var(--global-theme-color);
+      }
+
+      /* Placeholder (pdf/slides = {soon}): shown but not clickable */
+      span.btn-soon {
+        cursor: default;
+        user-select: none;
+      }
+
+      /* thin dot between links */
+      .btn + .btn::before {
+        content: "·";
+        display: inline-block;
+        color: var(--global-text-color-light);
+        padding: 0 0.6rem;
       }
 
       a.award.btn {
         color: var(--global-theme-color);
-        border-color: var(--global-theme-color);
       }
 
-      /* Placeholder button (pdf/slides = {soon}): same shape, greyed out, not clickable */
-      span.btn-soon {
-        font-size: 0.75rem;
-        font-weight: 500;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-        border-radius: 999px;
-        border: 1px dashed var(--global-divider-color);
-        padding: 0.3rem 0.9rem;
-        margin: 0 0.35rem 0.35rem 0;
-        box-shadow: none;
+      /* Informational note, e.g. "Part of my Master thesis": grey italic text, not a button */
+      .note-label {
+        display: block;
+        flex-basis: 100%;
+        text-align: right;
+        font-family: v.$font-family-base;
+        font-size: 1.05rem;
+        font-style: italic;
         color: var(--global-text-color-light);
-        background: none;
+        margin: 0 0 0.3rem;
         cursor: default;
         user-select: none;
       }
